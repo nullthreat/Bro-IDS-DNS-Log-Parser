@@ -13,8 +13,7 @@ To install the bro_ids-dns-log parsing gem simply run the following command:
 `require 'bro_ids/dns/log'`
 `BroIds::Dns:Log.parse('YOUR DNS LOG LOCATION HERE')`
 
-Example 1:
----------------------
+## Example 1:
 
 	require 'bro_ids/dns/log'
 
@@ -24,8 +23,8 @@ Example 1:
 	end
 
 
-Example 2:
----------------------
+## Example 2:
+
 	require 'bro_ids/dns/log'
 
 	dns_log = File.open("dns.log")
